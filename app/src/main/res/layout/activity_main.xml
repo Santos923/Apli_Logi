@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7ACEECD5"
+    android:backgroundTint="#ABEAAE"
+    android:baselineAligned="false"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="345dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="32dp"
+        app:srcCompat="@drawable/icon_11" />
+
+    <EditText
+        android:id="@+id/tV_usu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Usuario"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/TV_pas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="Contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btn_iniciar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:background="#5FD564"
+        android:backgroundTint="#76D37A"
+        android:drawableTint="#7CE181"
+        android:text="Iniciar"
+        android:textColorHighlight="#306132"
+        android:textColorLink="#111211"
+        app:iconTint="#6DC171"
+        app:strokeColor="#439C47" />
+
+    <TextView
+        android:id="@+id/btn_reg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:text="Registrar"
+        android:textSize="25sp" />
+</LinearLayout>
